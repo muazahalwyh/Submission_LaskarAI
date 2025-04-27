@@ -94,37 +94,37 @@ Statistik Deskriptif:
 Beberapa tahapan EDA juga dilakukan:
 - Menampilkan distribusi kelas target <br>
   1. Distribusi Kelas Kategori <br>
-     ![Kategori](https://drive.google.com/uc?export=view&id=1wTRZxcFCWGOq42-8YA2jbwTLQgTMzlBa) <br>
+     ![Kategori](https://github.com/muazahalwyh/Submission_LaskarAI/blob/submission4_1/image/kategori.png) <br>
      
      Pada gambar diatas menunjukkan visualisasi distribusi kelas kategori yang terdiri dari gender, country_region, cancer_type, cancer_stage. <br>
   2. Distribusi Kelas Numerik <br>
-     ![Kategori](https://drive.google.com/uc?export=view&id=1j_ug4WyhszgkOs4Qc6eXnIkAJDD-EiW6) <br>
+     ![Kategori](https://github.com/muazahalwyh/Submission_LaskarAI/blob/submission4_1/image/numerik.png) <br>
      
      Pada gambar diatas menunjukkan visualisasi distribusi kelas kategori yang terdiri dari age, year, genetic_risk, air_pollution, alcohol_use, smoking, obesity_level, treatment_cost, Survival_years, Target_severity_sscore. <br>
   3. proporsi jenis kanker <br>
-     ![Kategori](https://drive.google.com/uc?export=view&id=1XOyBHsIxZ1X18qKSv8HU7v1Yt_W1LibT) <br>
+     ![Kategori](https://github.com/muazahalwyh/Submission_LaskarAI/blob/submission4_1/image/jeniskanker.png) <br>
      
      Pada gambar diatas menunjukkan beberapa jumlah persentase beberapa type kanker yang di diagnosis pasien terdapat type kanker yang terdiri dari lung, breast, cervical, skin, liver, leukemia, prostate, colon. Persentase yang ditampilkan jumlahnya sama rata yaitu 12% tetapi yang paling tinggi persentase komanya yaitu jenis kanker colon. <br>
   4. Jumlah Kasus Kanker tiap tahun <br>
-     ![Kategori](https://drive.google.com/uc?export=view&id=15v17MoRId6Q95IHq72NJldApQTXdVAr9) <br>
+     ![Kategori](https://github.com/muazahalwyh/Submission_LaskarAI/blob/submission4_1/image/kasuskanker.png) <br>
 
      Pada gambar diatas menunjukkan hasil perkembangan kasus penyakit kanker tiap tahun. Dari  kita liat grafiknya menunjukkan bahwa kasus penyakit kanker secara global tiap tahunnya berubah-ubah dari waktu ke waktu. Dari mulai tahun 2015 sebanyak >= 5000 naik di tahun 2016 sebanyak >= 5050an kasus dan pada tahun 2024 mengalami sedikit penurunan sebanyak 5000 kasus. <br>
   5. Kasus kanker perwilayah <br>
-     ![Kategori](https://drive.google.com/uc?export=view&id=1jRlZ_q0A_zZFxIWwcyskVJNJxfSaUdfP) <br>
+     ![Kategori](https://github.com/muazahalwyh/Submission_LaskarAI/blob/submission4_1/image/wilayah%20kanker.png) <br>
 
      Pada gambar diatas menunjukkan beberapa jumlah persentase beberapa kasus kanker perwilayah yang di diagnosis pasien terdapat negara china, pakistan, brazil, rusia, jerman, india, usa, uk, australia, dan canada. Dari hasil diagram lingkaran tersebut persentase yang ditampilkan jumlahnya sama rata yaitu 10% kecuali untuk negara canada, china, dan pakistan yang menampilkan persentase sebanyak 9%. <br>
   6. Top 10 Negara jumlah penderita kanker tertinggi <br>
-     ![Kategori](https://drive.google.com/uc?export=view&id=1-KYVMDwyWBqLtSHMiGTQ_Nu3wJ8rg5qF) <br>
+     ![Kategori](https://github.com/muazahalwyh/Submission_LaskarAI/blob/submission4_1/image/top10negara.png) <br>
    
      Pada gambar diatas menunjukkan bahwa ada 10 negara yang memiliki jumlah penderita kanker tertinggi yaitu australia, uk, usa, india, jerman, rusia, brazil, pakistan, china dan canada. Kasus tertinggi di peroleh dari negara australia dan negara yang sedikit kasusnya yaitu canada. <br>
   7. Jenis kanker di 5 negara penderita terbanyak <br>
-     ![Kategori](https://drive.google.com/uc?export=view&id=1NasEqPRrTOUcRJC10FQbIpBPtSN3WyMS) <br>
+     ![Kategori](https://github.com/muazahalwyh/Submission_LaskarAI/blob/submission4_1/image/tipekanker.png) <br>
      
      Pada gambar diatas menunjukkan bahwa ada 5 negara yang memiliki tipe kanker yang memiliki pasien terbanyak yaitu urutan pertama ada UK, dimana tipe kanker paling tinggi yaitu kanker prostate, yang kedua negara jerman tipe kanker yang paling tinggi yaitu kanker leukemia, dan untuk urutan terakhir negara australia yang memiliki tipe kanker dengan pasien terbanyak yaitu kanker liver. <br>
      
 
 - korelasi antar fitur <br>
-  ![Kategori](https://drive.google.com/uc?export=view&id=12fQEUSaEZ35AYBFFWLcPcoTA_c8-o-xw) <br>
+  ![Kategori](https://github.com/muazahalwyh/Submission_LaskarAI/blob/submission4_1/image/heatmap.png) <br>
      
   Pada gambar diatas menunjukkan hubungan atau korelasi antar fitur dalam dataset. Korelasi diukur dalam rentang -1 hingga 1. Terdapat beberapa warna area yaitu :
   - Area merah menunjukkan korelasi yang sangat kuat (mendekati nilai 1.0) pada area ini memiliki fitur korelasi antar dirinya sendiri sehingga wajar selalu memiliki korelasi sempurna. <br>
@@ -133,7 +133,7 @@ Beberapa tahapan EDA juga dilakukan:
   - Area abu-abu biru langit mewakili korelasi sangat lemah (sekitar 0.2 atau lebih kecil), menunjukkan hubungan yang hampir tidak signifikan antara fitur-fitur tersebut <br>
 
 - Visualisasi outlier <br>
-  ![Kategori](https://drive.google.com/uc?export=view&id=1bRrqQi4mTOqWcSgqLtByOMXjCPNksWDa) <br>
+  ![Kategori](https://github.com/muazahalwyh/Submission_LaskarAI/blob/submission4_1/image/outlier.png) <br>
    
   Pada gambar diatas menunjukkan titik data yang berada jauh dari distribusi normal data lainnya. Mereka bisa mempengaruhi analisis statistik atau model.  <br> 
 
